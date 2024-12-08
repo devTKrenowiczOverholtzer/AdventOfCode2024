@@ -1,4 +1,4 @@
-// Day 1
+the// Day 1
 #include <stdio.h>
 
 
@@ -9,10 +9,15 @@ void print_Advent_Day();
 
 
 
-int main (){
+int main (int argc, char *argv[]){
 print_Advent_Day();
 print_challenge();
+printf("Number of arguments: %d\n", argc);
+for (int i = 0; i < argc; i++) {
+  printf("Argument %d: %s\n", i, argv[i]);
+}
 count_input_lines();
+
 
 
             
