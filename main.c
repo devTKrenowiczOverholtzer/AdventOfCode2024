@@ -6,6 +6,7 @@ the// Day 1
 void count_input_lines();
 void print_challenge();
 void print_Advent_Day();
+void print_argument_info();
 
 
 
@@ -24,6 +25,7 @@ count_input_lines();
 return 0;
 }
 
-print_Advent_Day(){};
-print_challenge(){};
-count_input_lines(){};
+void print_Advent_Day(){};
+void print_challenge(){};
+void count_input_lines(){};
+void print_argument_info(){};
