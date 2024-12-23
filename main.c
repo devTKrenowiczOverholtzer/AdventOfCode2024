@@ -1,4 +1,4 @@
-the// Day 1
+// Day 1
 #include <stdio.h>
 
 
@@ -25,7 +25,10 @@ count_input_lines();
 return 0;
 }
 
-void print_Advent_Day(){};
+void print_Advent_Day(){
+  printf("Day 1/n");
+};
+
 void print_challenge(){};
 void count_input_lines(){};
 void print_argument_info(){};
